@@ -1,0 +1,54 @@
+{
+  "contact": {
+    "office_phone": "202-225-3164",
+    "official_website": "https://taylor.house.gov"
+  },
+  "district": "2",
+  "generation": {
+    "at": "2026-11-09",
+    "content_hash": "sha256:19a0c131ad74c0d796be8248b8e00f22622dbf1c671e6e16e43e20b63e230b8e",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-09T17:45:25Z",
+      "units": ""
+    }
+  },
+  "id": "official:bioguide:T000490/2025-01-03",
+  "jurisdiction": "jur:us-oh",
+  "kind": "official",
+  "level": "federal",
+  "overrides": [],
+  "person": {
+    "full_name": "David J. Taylor",
+    "party": "Republican"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-09",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:787cb1af1fcdda04",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-09",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": "2027-01-03",
+    "start": "2025-01-03",
+    "status": "current"
+  },
+  "title": "David J. Taylor (U.S. Representative)"
+}

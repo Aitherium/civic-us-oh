@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "bodies": 6,
+    "jurisdiction": 1,
+    "measures": 0,
+    "meetings": 0,
+    "offices": 4,
+    "officials": 21,
+    "sources": 8
+  },
+  "gaps": [
+    "chamber seats are the number of current members the officials cache resolves (Senate 32, House of Representatives 98); a vacancy makes that a lower bound on the chamber's statutory size",
+    "the officials cache does not state whether each statewide office is elected or appointed, so the offices are labelled elected; a crowd submission in records/office corrects one that is appointed",
+    "the 130 state legislators the officials cache resolves are not emitted as official records in this state repo (the chamber bodies are); a later slice adds them by district",
+    "no meeting or measure records: state bill and hearing ingestion is a later slice",
+    "global-law has no corpus for jur:us-oh yet; nearest: country (united-states/federal). This repo references those corpora by path and pinned commit and never copies their text."
+  ],
+  "id": "jur:us-oh",
+  "lookup_gaps": [],
+  "schema_version": "civic/1",
+  "sources": [
+    "source:787cb1af1fcdda04",
+    "source:d67cc2aa6a7260fe",
+    "source:f885d50ccb05f78b",
+    "source:c8e6292d1256ba5b",
+    "source:211515f1e1c70874",
+    "source:1b2611e148445eeb",
+    "source:67251917d336a6a2",
+    "source:3558d714e91a782b"
+  ],
+  "status": "seed"
+}

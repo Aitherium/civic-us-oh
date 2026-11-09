@@ -1,0 +1,149 @@
+{
+  "boundaries": {
+    "feature_count": 0,
+    "geojson_url": null,
+    "license": "US Government work (public domain)",
+    "note": "no boundary pointer is generated for a state or country repo yet; the place repos carry a TIGERweb query per city",
+    "retrieved_at": "",
+    "source_url": "https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html"
+  },
+  "codes": {
+    "census_geoid": "",
+    "fips_county": "",
+    "fips_state": "39",
+    "iso_3166_2": "US-OH",
+    "ocd_id": "ocd-division/country:us/state:oh",
+    "place_fips": ""
+  },
+  "coverage": {
+    "counts": {
+      "bodies": 6,
+      "jurisdiction": 1,
+      "measures": 0,
+      "meetings": 0,
+      "offices": 4,
+      "officials": 21,
+      "sources": 8
+    },
+    "gaps": [
+      "chamber seats are the number of current members the officials cache resolves (Senate 32, House of Representatives 98); a vacancy makes that a lower bound on the chamber's statutory size",
+      "the officials cache does not state whether each statewide office is elected or appointed, so the offices are labelled elected; a crowd submission in records/office corrects one that is appointed",
+      "the 130 state legislators the officials cache resolves are not emitted as official records in this state repo (the chamber bodies are); a later slice adds them by district",
+      "no meeting or measure records: state bill and hearing ingestion is a later slice",
+      "global-law has no corpus for jur:us-oh yet; nearest: country (united-states/federal). This repo references those corpora by path and pinned commit and never copies their text."
+    ],
+    "status": "seed"
+  },
+  "external_ids": {
+    "ballotpedia": null,
+    "osm_relation": null,
+    "wikidata": null,
+    "wikipedia": null
+  },
+  "generation": {
+    "at": "2026-11-09",
+    "content_hash": "sha256:e20d0b7ecf902124ed6ab7908c532df2e7359c8058e4b3a1bf9107acc1d77c00",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-09T17:45:25Z",
+      "units": ""
+    }
+  },
+  "id": "jur:us-oh",
+  "jurisdiction": "jur:us-oh",
+  "kind": "jurisdiction",
+  "law": {
+    "covered": false,
+    "gap": "global-law has no corpus for jur:us-oh yet; nearest: country (united-states/federal). This repo references those corpora by path and pinned commit and never copies their text.",
+    "nearest": [
+      {
+        "corpora": [
+          {
+            "name": "United States Code",
+            "path": "united-states/federal/usc",
+            "record_to": "2026-10-20",
+            "url": "https://github.com/lexifina/united-states-law.git",
+            "warnings": [
+              "corpus.json has no citation rule, so citations of this law are not recognised"
+            ]
+          }
+        ],
+        "iso_path": "us/federal",
+        "jurisdiction": "jur:us",
+        "level": "country",
+        "path": "united-states/federal",
+        "pinned_commit": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44"
+      }
+    ]
+  },
+  "level": "subdivision",
+  "name": "Ohio",
+  "overrides": [],
+  "parent": "jur:us",
+  "privacy": "public-record",
+  "provenance": {
+    "added_at": "2026-11-09",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:787cb1af1fcdda04",
+        "url": "https://github.com/unitedstates/congress-legislators"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:d67cc2aa6a7260fe",
+        "url": "https://github.com/openstates/people"
+      },
+      {
+        "license": "US Government work (public domain)",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:f885d50ccb05f78b",
+        "url": "https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_main.html"
+      },
+      {
+        "license": "see NOTICE",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:c8e6292d1256ba5b",
+        "url": "https://github.com/lexifina/united-states-law"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:211515f1e1c70874",
+        "url": "https://governor.ohio.gov/"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:1b2611e148445eeb",
+        "url": "https://governor.ohio.gov/administration/lt-governor"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:67251917d336a6a2",
+        "url": "https://www.ohioattorneygeneral.gov/About-AG/Dave-Yost"
+      },
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-09",
+        "source_id": "source:3558d714e91a782b",
+        "url": "https://www.sos.state.oh.us"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-09",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "slug": "us-oh",
+  "title": "Ohio"
+}
