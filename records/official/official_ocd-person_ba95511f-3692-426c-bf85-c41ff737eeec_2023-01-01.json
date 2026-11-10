@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-oh-house-of-representatives",
+  "district": "49",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:08a57e5d7ee49f56433476da67e890c244df33d56987a46d6cf5449853716e46",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/ba95511f-3692-426c-bf85-c41ff737eeec/2023-01-01",
+  "jurisdiction": "jur:us-oh",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-oh-house-of-representatives/49",
+  "overrides": [],
+  "person": {
+    "full_name": "Jim Thomas",
+    "party": "Republican"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d67cc2aa6a7260fe",
+        "url": "https://github.com/openstates/people"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2023-01-01",
+    "status": "current"
+  },
+  "title": "Jim Thomas (State Representative)"
+}

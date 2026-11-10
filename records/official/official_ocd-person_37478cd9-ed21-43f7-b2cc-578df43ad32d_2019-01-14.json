@@ -1,45 +1,45 @@
 {
-  "body": "body:jur:us-oh-attorney-general",
+  "body": "body:jur:us-oh-governor",
   "contact": {
-    "office_phone": "614-466-4320",
-    "official_website": "https://www.ohioattorneygeneral.gov/"
+    "office_phone": "614-644-4357",
+    "official_website": "https://governor.ohio.gov/"
   },
   "district": "",
   "generation": {
-    "at": "2026-11-09",
-    "content_hash": "sha256:7f7f1e2edf63c1276bb51302f6621f94311f6a02b0861ecb615a4213f7b2cd08",
+    "at": "2026-11-10",
+    "content_hash": "sha256:b0c25ac32bd32da5b59b0f6378251f08577dfdb85dde57c37136a7aed694acfd",
     "generator": "civic_repo_gen/0.1.0",
     "source_snapshot": {
       "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
-      "officials": "2026-11-09T17:45:25Z",
+      "officials": "2026-11-10T07:36:16Z",
       "units": ""
     }
   },
-  "id": "official:ocd-person/b8ac5c3b-66e6-47f4-b8c2-1fd148a1f041/2023-01-03",
+  "id": "official:ocd-person/37478cd9-ed21-43f7-b2cc-578df43ad32d/2019-01-14",
   "jurisdiction": "jur:us-oh",
   "kind": "official",
   "level": "state",
-  "office": "office:body:jur:us-oh-attorney-general/attorney-general",
+  "office": "office:body:jur:us-oh-governor/governor",
   "overrides": [],
   "person": {
-    "full_name": "Dave Yost",
+    "full_name": "Mike DeWine",
     "party": "Republican"
   },
   "privacy": "public-official",
   "provenance": {
-    "added_at": "2026-11-09",
+    "added_at": "2026-11-10",
     "added_by": "civic_repo_gen/0.1.0",
     "evidence": {},
     "sources": [
       {
         "license": "CC0-1.0",
-        "retrieved_at": "2026-11-09",
-        "source_id": "source:67251917d336a6a2",
-        "url": "https://www.ohioattorneygeneral.gov/About-AG/Dave-Yost"
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:211515f1e1c70874",
+        "url": "https://governor.ohio.gov/"
       }
     ],
     "validated": {
-      "at": "2026-11-09",
+      "at": "2026-11-10",
       "by": "civic_repo_gen/0.1.0",
       "method": "generated-official"
     },
@@ -49,8 +49,8 @@
   "status": "current",
   "term": {
     "end": "2027-01-11",
-    "start": "2023-01-03",
+    "start": "2019-01-14",
     "status": "current"
   },
-  "title": "Dave Yost (Attorney General)"
+  "title": "Mike DeWine (Governor)"
 }

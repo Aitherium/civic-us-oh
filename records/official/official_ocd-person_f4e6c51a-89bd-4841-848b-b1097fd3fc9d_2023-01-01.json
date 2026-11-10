@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-oh-house-of-representatives",
+  "district": "12",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:4fbce2af2dc32cd1445c626b4def087e51463af2c7bd96b86458e1cba41ee470",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/f4e6c51a-89bd-4841-848b-b1097fd3fc9d/2023-01-01",
+  "jurisdiction": "jur:us-oh",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-oh-house-of-representatives/12",
+  "overrides": [],
+  "person": {
+    "full_name": "Brian Stewart",
+    "party": "Republican"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d67cc2aa6a7260fe",
+        "url": "https://github.com/openstates/people"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2023-01-01",
+    "status": "current"
+  },
+  "title": "Brian Stewart (State Representative)"
+}

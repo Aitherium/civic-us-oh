@@ -1,0 +1,52 @@
+{
+  "body": "body:jur:us-oh-house-of-representatives",
+  "district": "3",
+  "generation": {
+    "at": "2026-11-10",
+    "content_hash": "sha256:ec77b5528bdfc25e19e8a91df9e9fc9e8096fc94a45991a6510ce4035803ad49",
+    "generator": "civic_repo_gen/0.1.0",
+    "source_snapshot": {
+      "law": "47a4f1a36ff92d20cd4f573143b89cf54ad58f44",
+      "officials": "2026-11-10T07:36:16Z",
+      "units": ""
+    }
+  },
+  "id": "official:ocd-person/ed31c4e5-e835-4c4c-9352-217f5dcf1037/2023-01-01",
+  "jurisdiction": "jur:us-oh",
+  "kind": "official",
+  "level": "state",
+  "office": "office:body:jur:us-oh-house-of-representatives/3",
+  "overrides": [],
+  "person": {
+    "full_name": "Ismail Mohamed",
+    "party": "Democratic"
+  },
+  "privacy": "public-official",
+  "provenance": {
+    "added_at": "2026-11-10",
+    "added_by": "civic_repo_gen/0.1.0",
+    "evidence": {},
+    "sources": [
+      {
+        "license": "CC0-1.0",
+        "retrieved_at": "2026-11-10",
+        "source_id": "source:d67cc2aa6a7260fe",
+        "url": "https://github.com/openstates/people"
+      }
+    ],
+    "validated": {
+      "at": "2026-11-10",
+      "by": "civic_repo_gen/0.1.0",
+      "method": "generated-official"
+    },
+    "vouches": []
+  },
+  "schema_version": "civic/1",
+  "status": "current",
+  "term": {
+    "end": null,
+    "start": "2023-01-01",
+    "status": "current"
+  },
+  "title": "Ismail Mohamed (State Representative)"
+}
